@@ -12,4 +12,4 @@ jobs:
     steps:
     - name: Send HTTP request to CTF site
       run: |
-        curl -I https://actions.ctf.cert.unlp.edu.ar/
+        curl https://actions.ctf.cert.unlp.edu.ar/
